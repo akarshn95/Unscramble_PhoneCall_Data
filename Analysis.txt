@@ -1,0 +1,25 @@
+Worst-Case Big-O Notation discussed for each task
+
+
+TASK 0:
+
+Time Complexity - O(1) - Constant time; since the time is independent of the input
+
+TASK 1:
+
+Time Complexity - O(2n) - Linear time; 2 'for' loops on each of the input files, as these files get bigger time increases linearly with size
+
+TASK 2:
+
+Time Complexity - O(3n) - Linear time; 3 'for' loops, as the files get bigger time increases linearly with size
+
+TASK 3: 
+
+Time Complexity - O(3n) - Linear time; 3 'for' loops, as the files get bigger time increases linearly with size
+
+TASK 4:
+
+Time Complexity - O(4n) - Linear time; 4 'for' loops, as the files get bigger time increases linearly with size
+
+
+
