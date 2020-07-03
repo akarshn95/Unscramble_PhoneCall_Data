@@ -53,7 +53,7 @@ count_total=0
 for call in calls:
     if call[0][:5]=='(080)':
         count_total+=1
-        if call[1][0]=='(':
+        if call[1][0]=='(0':
             end=call[1].find(')')
             codes.append(call[1][:end+1])
         if call[1][0] in ('7','8','9'):
