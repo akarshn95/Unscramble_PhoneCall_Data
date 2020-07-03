@@ -31,11 +31,7 @@ for call in calls:
     caller_dict[call[0]]+=int(call[3])
     caller_dict[call[1]]+=int(call[3])
 
-highest=0
-caller=''
-for k,v in caller_dict.items():
-    if v > highest:
-        highest = v
-        caller = k
+caller=max(caller_dict,key=lambda k:caller_dict[k])
+highest=caller_dict[caller]
         
 print("{} spent the longest time, {} seconds, on the phone during September 2016.".format(caller,highest))
