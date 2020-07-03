@@ -15,8 +15,12 @@ Time Complexity - O(3n) - Linear time; 3 'for' loops, as the files get bigger ti
 
 TASK 3: 
 
-Time Complexity - O(n logn) - n log n time; 2 'for' loops with complexity 'n'. Sorted function is used which has a time complexity of O(n logn), making the worst time complexity O(n logn). The total time complexity is (2n + nlog n)
+Time Complexity - O(n logn) - n log n time; 2 'for' loops with complexity 'n'. 
+Sorted function is used which has a time complexity of O(n logn), making the worst time complexity O(n logn). 
+The total time complexity is (2n + nlog n)
 
 TASK 4:
 
-Time Complexity - O(n logn) - n logn time; 3 'for' loops with complexity 'n'. Sorted function is used which has a time complexity of O(n logn), making the worst time complexity O(n logn). The total time complexity is (3n + nlog n)
+Time Complexity - O(n logn) - n logn time; 3 'for' loops with complexity 'n'. 
+Sorted function is used which has a time complexity of O(n logn), making the worst time complexity O(n logn). 
+The total time complexity is (3n + nlog n)
