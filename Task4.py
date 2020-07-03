@@ -42,5 +42,4 @@ for num in nums:
         spam.add(num)
     
 print("These numbers could be telemarketers: ")
-for num in sorted(spam):
-    print(num)
+print("\n".join(sorted(spam)))
